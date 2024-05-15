@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+#formMain {
+    padding: 100px 0;
+}
+
+.login-form {
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px #ddd;
+}
+
+.user-div {
+    padding: 10px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(67, 41, 94);
+}

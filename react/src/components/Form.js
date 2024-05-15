@@ -4,7 +4,7 @@ const Form =( { formData, handleChange, handleSubmit } )=> {
         <main className="main" id="formMain">
             <div className="container">
                 <h2 className="text-center text-capitalize">create a login</h2>
-                <form id="form" className="form" onSubmit={handleSubmit}>
+                <form id="form" className="form login-form" onSubmit={handleSubmit}>
                     <div className="mb-3 row">
                         <div className="col-auto">
                             <label htmlFor="fName" className="form-label text-capitalize">first name</label>
